@@ -7,6 +7,31 @@
     font-family: "Poppins", sans-serif;
 }
 
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0px 0px 1px blue; 
+  border-radius: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #3b82f6; 
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #353535; 
+}
+
+
+
+
 #banner{
     background-image: url("assets/img/hero/banner.png");
     height: 820px;
@@ -22,3 +47,13 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+@media only screen and (max-width: 1280px) {
+    #banner{
+        background-image: url("assets/img/hero/banner2.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+    

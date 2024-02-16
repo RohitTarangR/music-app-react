@@ -11,9 +11,10 @@ const ShopCollection = () => {
         <h2 className="text-3xl font-semibold text-center py-10">
           Shop Collection
         </h2>
-        <div className="flex justify-center space-x-5 flex-wrap ">
+        <div className="flex justify-center space-x-5 flex-wrap max-xl:space-y-5 ">
+          <span></span>
           <div className="relative">
-            <img src={img1} alt="img" />
+            <img src={img1} alt="img" className="w-full h-full object-cover" />
             <div className="absolute bottom-5 left-5">
               <p className="text-2xl font-bold">Headband</p>
               <button className="flex items-center underline underline-offset-4">
@@ -23,7 +24,11 @@ const ShopCollection = () => {
           </div>
           <div className="space-y-5">
             <div className="relative">
-              <img src={img2} alt="img" />
+              <img
+                src={img2}
+                alt="img"
+                className="w-full h-full object-cover"
+              />
               <div className="absolute bottom-5 left-5">
                 <p className="text-2xl font-bold">Earbuds</p>
                 <button className="flex items-center underline underline-offset-4">
@@ -32,7 +37,11 @@ const ShopCollection = () => {
               </div>
             </div>
             <div className="relative">
-              <img src={img3} alt="img" />
+              <img
+                src={img3}
+                alt="img"
+                className="w-full h-full object-cover"
+              />
               <div className="absolute bottom-5 left-5">
                 <p className="text-2xl font-bold">Accessories</p>
                 <button className="flex items-center underline underline-offset-4">

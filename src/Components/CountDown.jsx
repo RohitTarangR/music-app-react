@@ -44,31 +44,31 @@ const CountDown = () => {
 
   return (
     <div className="bg-[#ffcc5f] rounded-lg">
-      <h2 className="text-xl font-semibold mb-2">Offer expires in:</h2>
+      <h2 className="text-xl font-semibold mb-2 max-lg:text-center">Offer expires in:</h2>
       <div className="flex space-x-4">
         <div className="flex flex-col items-center">
-          <span className="text-5xl font-bold bg-white p-3">
+          <span className="text-5xl font-bold bg-white p-3 max-md:p-2 max-md:text-2xl">
             {countDownTime.days}
           </span>
-          <p className="text-black font-semibold"> Days</p>
+          <p className="text-black font-semibold max-md:text-xs my-2 max-md:font-bold"> Days</p>
         </div>
         <div className="flex flex-col items-center">
-          <span className="text-5xl font-bold bg-white p-3">
+          <span className="text-5xl font-bold bg-white p-3 max-md:p-2 max-md:text-2xl">
             {countDownTime.hours}
           </span>
-          <p className="text-black font-semibold"> Hours</p>
+          <p className="text-black font-semibold max-md:text-xs my-2 max-lg:font-bold"> Hours</p>
         </div>
         <div className="flex flex-col items-center">
-          <span className="text-5xl font-bold bg-white p-3">
+          <span className="text-5xl font-bold bg-white p-3 max-md:p-2 max-md:text-2xl">
             {countDownTime.minutes}
           </span>
-          <p className="text-black font-semibold"> Minutes</p>
+          <p className="text-black font-semibold max-md:text-xs my-2 max-md:font-bold"> Minutes</p>
         </div>
         <div className="flex flex-col items-center">
-          <span className="text-5xl font-bold bg-white p-3">
+          <span className="text-5xl font-bold bg-white p-3 max-md:p-2 max-md:text-2xl">
             {countDownTime.seconds}
           </span>
-          <p className="text-black font-semibold"> Seconds</p>
+          <p className="text-black font-semibold max-md:text-xs my-2 max-md:font-bold"> Seconds</p>
         </div>
       </div>
     </div>

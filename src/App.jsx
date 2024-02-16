@@ -8,6 +8,7 @@ import BestSeller from './Components/BestSeller'
 import Promotion from './Components/Promotion'
 import NewsFeed from './Components/NewsFeed'
 import NewsLetter from './Components/NewsLetter'
+import Footer from './Components/Footer'
 // import Features from './Components/Features'
 
 
@@ -24,6 +25,7 @@ const App = () => {
     {/* <Features /> */}
     <NewsFeed />
     <NewsLetter/>
+    <Footer />
     </>
   )
 }
