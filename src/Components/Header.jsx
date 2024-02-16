@@ -23,7 +23,7 @@ const Header = () => {
           <button className="flex items-center text-yellow-400 underline text-sm underline-offset-4">
             Shop Now
             <div>
-              <ArrowForward />{" "}
+              <ArrowForward />
             </div>
           </button>
         </div>

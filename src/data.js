@@ -24,15 +24,6 @@ import b6 from "../src/assets/img/best-seller/b6.png";
 import b7 from "../src/assets/img/best-seller/b7.png";
 import b8 from "../src/assets/img/best-seller/b8.png";
 
-// shop features
-
-import {
-  LocalShippingOutlined,
-  LocalAtmOutlined,
-  LockOutlined,
-  CallOutlined,
-} from "@mui/icons-material";
-
 // newsFeedImg
 
 import n1 from "./assets/img/newsfeed/n1.png"
@@ -158,34 +149,6 @@ export const bestSellerProduct = [
     price: 299.99,
   },
 ];
-
-// export const shopFeatures = [
-//   {
-//     id: 1,
-//     iconComponent: <LocalShippingOutlined />,
-//     fText: "Free Shipping",
-//     desc: "Order above $200",
-//   },
-//   {
-//     id: 2,
-//     iconComponent: <LocalAtmOutlined />,
-//     fText: "Money-Back",
-//     desc: "30 days guarantee",
-//   },
-//   {
-//     id: 3,
-//     iconComponent: <LockOutlined />,
-//     fText: "Secure Payments",
-//     desc: "Secured by Stripe",
-//   },
-//   {
-//     id: 4,
-//     iconComponent: <CallOutlined />,
-//     fText: "24/7 Support",
-//     desc: "Phone and Email Support",
-//   },
-// ];
-
 
 export const newsFeedImg = [
   {

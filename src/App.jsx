@@ -9,7 +9,7 @@ import Promotion from './Components/Promotion'
 import NewsFeed from './Components/NewsFeed'
 import NewsLetter from './Components/NewsLetter'
 import Footer from './Components/Footer'
-// import Features from './Components/Features'
+import Features from './Components/Features'
 
 
 const App = () => {
@@ -22,7 +22,7 @@ const App = () => {
     <ShopCollection />
     <BestSeller />
     <Promotion />
-    {/* <Features /> */}
+    <Features />
     <NewsFeed />
     <NewsLetter/>
     <Footer />
