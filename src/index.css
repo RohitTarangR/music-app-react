@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+*{
+    font-family: "Poppins", sans-serif;
+}
+
+#banner{
+    background-image: url("assets/img/hero/banner.png");
+    height: 820px;
+    background-position: end;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#newsLetter{
+    background-image: url("assets/img/newsletter.png");
+    height: 360px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
